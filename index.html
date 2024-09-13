@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人知识传播网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .projects, .knowledge {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 15px;
+            width: calc(50% - 20px);
+            box-sizing: border-box;
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的知识传播网页</h1>
+    </header>
+
+    <div class="container">
+        <section class="section projects">
+            <h2>项目展示</h2>
+            <div class="card">
+                <h3>项目名称 1</h3>
+                <p>项目描述：简要介绍项目的背景、目标和成果。</p>
+            </div>
+            <div class="card">
+                <h3>项目名称 2</h3>
+                <p>项目描述：简要介绍项目的背景、目标和成果。</p>
+            </div>
+            <!-- 可以继续添加更多项目 -->
+        </section>
+
+        <section class="section knowledge">
+            <h2>知识点与技能</h2>
+            <div class="card">
+                <h3>知识点 1</h3>
+                <p>描述：详细介绍知识点的理论背景和应用方法。</p>
+            </div>
+            <div class="card">
+                <h3>知识点 2</h3>
+                <p>描述：详细介绍知识点的理论背景和应用方法。</p>
+            </div>
+            <!-- 可以继续添加更多知识点 -->
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 你的名字 | 所有权利保留</p>
+    </footer>
+</body>
+</html>
